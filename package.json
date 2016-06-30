@@ -1,8 +1,8 @@
 {
-  "name": "cordova-plugin-microphone",
+  "name": "cordova-plugin-mediocre-media",
   "version": "0.0.1",
   "cordova": {
-        "id": "com.bandpad.cordova.microphone",
+        "id": "com.d29.cordova.microphone",
         "platforms": [
               "ios"
         ]
@@ -11,14 +11,15 @@
   "license": "Apache 2.0",
    "repository":{
         "type": "git",
-        "url": "https://github.com/amitgur/cordova-plugin-microphone.git"
+        "url": "https://github.com/joedaniels/cordova-plugin-mediocre-media.git"
     },
-    "bugs": "https://github.com/amitgur/cordova-plugin-microphone.git/issues",
+    "bugs": "https://github.com/joedaniels/cordova-plugin-mediocre-media.git/issues",
    "keywords": [
     "cordova",
     "ios",
     "microphone",
     "permission",
+    "mediocre",
     "record"
   ],
    "engines": [],
