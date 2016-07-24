@@ -92,7 +92,7 @@
         }];
 
     // start recording
-    [self.recorder recordForDuration:(NSTimeInterval) 10];
+    [self.recorder record];
 }
 
 - (void)stopRecording {
@@ -104,9 +104,9 @@
     NSError *err = nil;
     self.player =
             [[AVAudioPlayer alloc] initWithContentsOfURL:self.fileUrl error:nil];
-    if (err)
-        return NSLog(@"Audio Player: %@ %ld %@", [err domain], (long) [err code],
-                [[err userInfo] description]);
+//    if (err)
+//        return NSLog(@"Audio Player: %@ %ld %@", [err domain], (long) [err code],
+//                [[err userInfo] description]);
     self.player.delegate = self;
     [self.player prepareToPlay];
 }

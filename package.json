@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mediocre-media",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "cordova": {
         "id": "com.d29.cordova.microphone",
         "platforms": [
